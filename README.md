@@ -19,5 +19,4 @@
                       <label for="lname">Last Name :</label>
                       <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
                   </div>
-            </div>
            <div class="row">
