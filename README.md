@@ -1,16 +1,6 @@
 # oncirasg
 <html>
     <head>
-        <title>Sign Up</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="mystyle.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-        <script src="https://oncira.com/app/1710384387078x663206090946081500"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-      <div>
          <img src="images/online-sign-up-7964199-6381809.png" style="margin-left:70px ; width: 500px;margin-top:50px;">
      </div>
     <div class="container">
