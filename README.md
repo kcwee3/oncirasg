@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="mystyle.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
         <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://oncira.com/app/1710384387078x663206090946081500"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
@@ -23,3 +23,11 @@
             <div class="row">
                  <div class="form-group col-md-6">
                       <label for="fname">First Name :</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="lname">Last Name :</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+                  </div>
+            </div>
+           <div class="row">
