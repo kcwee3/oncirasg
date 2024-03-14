@@ -1,22 +1,25 @@
 # oncirasg
-<html>
-    <head>
-         <img src="images/online-sign-up-7964199-6381809.png" style="margin-left:70px ; width: 500px;margin-top:50px;">
-     </div>
-    <div class="container">
-      <div id="signupcard" class="card">
-        <div class="card-header">
-          <h3 class="text-center text-gray-dark">Sign Up <span><img src="images/signup_3.png" width="50px" height="50px"></span></h3>
-        </div>
-        <div class="card-body">
-          <form id="signupform">
-            <div class="row">
-                 <div class="form-group col-md-6">
-                      <label for="fname">First Name :</label>
-                      <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
-                  </div>
-                  <div class="form-group col-md-6">
-                      <label for="lname">Last Name :</label>
-                      <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
-                  </div>
-           <div class="row">
+<?php  
+if (isset($_POST['submit'])) {  
+    extract($_POST);  
+    $servername = "localhost ";  
+    $username   = "root";  
+    $password   = "";  
+    $dbname     = "your db name";  
+    // Create connection  
+    $conn       = new mysqli($servername, $username, $password, $dbname);  
+    // Check connection  
+    if ($conn->connect_error) {  
+        die("Connection failed: " . $conn->connect_error);  
+    }  
+    $sql = "INSERT INTO `table_name` (fname,uname,lname,address,cno)  
+  
+VALUES ('$fname','$uname','$lname','$adress','$cno')";  
+    if ($conn->query($sql) === TRUE) {  
+        header('Location: login.php');  
+    } else {  
+        echo "Error: " . $sql . "<br>" . $conn->error;  
+    }  
+    $conn->close();  
+}  
+?> 
